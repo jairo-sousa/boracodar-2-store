@@ -5,8 +5,22 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Store</title>
+
 		<link rel="stylesheet" href="./style/main.css" />
 		<link rel="stylesheet" href="./style/class.css" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body class="flex-center">
 		<main id="app" class="flex">
@@ -20,11 +34,11 @@
 					<img src="./assets/42404.svg" alt="Product" />
 				</div>
 			</section>
-			<section id="purchaseInfo">
-				<div id="productInfo">
-					<p>CÓDIGO: <span id="code">code</span></p>
-					<h1 id="title">Title</h1>
-					<p>preço: <span id="price">code</span></p>
+			<section id="purchaseInfo" class="flex column justifyC-center">
+				<div id="productInfo" class="flex column">
+					<p id="codeLabel">CÓDIGO: <span id="code">code</span></p>
+					<h1 id="title">Sofá</h1>
+					<p id="priceLabel">PREÇO: <span id="price">code</span></p>
 				</div>
 				<button id="addToBasket">ADICIONAR A CESTA</button>
 			</section>
