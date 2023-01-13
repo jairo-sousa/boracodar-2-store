@@ -52,17 +52,33 @@ body {
 	gap: 1.2rem;
 }
 
-#codeLabel {
-	font-size: 1.33rem;
+#codeArea {
+	font-size: 1rem;
 	font-family: "Lato", sans-serif;
+	font-weight: 300;
 }
 
 #title {
-	font-size: 4.26rem;
+	font-size: 3.2rem;
 	font-family: "Crimson Pro", serif;
+	font-weight: 600;
 }
 
-#priceLabel {
-	font-size: 2.13rem;
+#priceArea {
+	font-size: 1.6rem;
 	font-family: "Lato", sans-serif;
+	font-weight: 400;
+}
+
+#addToBasket {
+	width: 14.8rem;
+	height: 3.2rem;
+
+	font-size: 1.2rem;
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	border-radius: 2rem;
+
+	border: 0.05rem solid #271a45;
+	background-color: transparent;
 }
