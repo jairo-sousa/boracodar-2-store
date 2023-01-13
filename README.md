@@ -2,11 +2,11 @@
 <p align="center"> Card de produto </p>
 <p align="center"> EM PRODUÇÃO </p>
 
-<a align="center" href="https://github.com/jairo-sousa/boracodar-2-store">
+<a align="center" href="https://jairo-sousa.github.io/boracodar-2-store/">
   <img alt="Store preview" src=".github/preview.svg">
 </a>
 
-<h3 align="center"><a href="https://github.com/jairo-sousa/boracodar-2-store" >Clique para visitar o projeto</a></h3>
+<h3 align="center"><a href="https://jairo-sousa.github.io/boracodar-2-store/" >Clique para visitar o projeto</a></h3>
 
 ## Projeto
 
