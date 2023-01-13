@@ -37,10 +37,17 @@ body {
 	position: relative;
 }
 
+#productImage {
+	max-height: 25.3rem;
+	max-width: 44.9rem;
+}
+
 #changeViewBtn {
 	position: absolute;
 	top: 0.8rem;
 	right: 5rem;
+
+	cursor: pointer;
 }
 
 #purchaseInfo {
@@ -81,4 +88,6 @@ body {
 
 	border: 0.05rem solid #271a45;
 	background-color: transparent;
+
+	cursor: pointer;
 }

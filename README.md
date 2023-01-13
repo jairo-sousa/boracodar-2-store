@@ -1,6 +1,5 @@
 <h1 align="center"> Store </h1>
 <p align="center"> Card de produto </p>
-<p align="center"> EM PRODUÇÃO </p>
 
 <a align="center" href="https://jairo-sousa.github.io/boracodar-2-store/">
   <img alt="Store preview" src=".github/preview.svg">
