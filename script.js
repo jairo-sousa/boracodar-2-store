@@ -2,11 +2,20 @@ const changeViewBtn = document.getElementById("changeViewBtn");
 
 const productImage = document.getElementById("productImage");
 
+const code = document.getElementById("code");
+const title = document.getElementById("title");
+const price = document.getElementById("price");
+
 const currentProduct = {
 	code: 42404,
 	path: "./assets/",
+	title: "Sofá Margot II - Rosé",
+	price: "4.000",
 	rotateView: false,
 };
+
+setProductInfo();
+
 const viewBtnPath = "./assets/";
 
 changeViewBtn.addEventListener("click", () => changeView());
@@ -27,4 +36,10 @@ function toggleProductImg(extension, btnImg) {
 
 function toggleViewBtn(btnImg) {
 	changeViewBtn.src = viewBtnPath + btnImg;
+}
+
+function setProductInfo() {
+	code.innerText = currentProduct.code;
+	title.innerText = currentProduct.title;
+	price.innerText = currentProduct.price;
 }
